@@ -13,9 +13,15 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/nav_decent" />
         <item
+<<<<<<< HEAD
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Slideshow" />
+=======
+            android:id="@+id/Garbage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/garbage" />
+>>>>>>> 55256afdcebe9e34439757df38c4d7f5398d6c7d
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_gallery"
