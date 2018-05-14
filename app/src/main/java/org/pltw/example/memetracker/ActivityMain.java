@@ -82,7 +82,7 @@ public class ActivityMain extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_decent) {
 
-        } else if (id == R.id.Garbage) {
+        } else if (id == R.id.nav_garbage) {
 
         } else if (id == R.id.nav_manage) {
 

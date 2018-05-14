@@ -13,7 +13,7 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/nav_decent" />
         <item
-            android:id="@+id/Garbage"
+            android:id="@+id/nav_garbage"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/garbage" />
         <item
