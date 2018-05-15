@@ -79,10 +79,12 @@ public class ActivityMain extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_quality) {
-            // Handle the camera action
-        } else if (id == R.id.nav_decent) {
 
-        } else if (id == R.id.nav_garbage) {
+        }
+        else if (id == R.id.nav_decent) {
+
+        }
+        else if (id == R.id.nav_garbage) {
 
         }
 
