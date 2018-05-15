@@ -1,8 +1,10 @@
 package org.pltw.example.memetracker;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -74,18 +76,23 @@ public class ActivityMain extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
+
+
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
 
+        int id = item.getItemId();
+       // Fragment contentFragment = null;
         if (id == R.id.nav_quality) {
+
 
         }
         else if (id == R.id.nav_decent) {
 
         }
         else if (id == R.id.nav_garbage) {
-
+           // Intent intent = new Intent(Garbage_Fragment.class);
+            //contentFragment = new Garbage_Fragment();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
