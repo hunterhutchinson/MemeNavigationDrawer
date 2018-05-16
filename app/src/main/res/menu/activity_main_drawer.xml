@@ -5,17 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_quality"
+            android:id="@+id/nav_meme"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Quality" />
-        <item
-            android:id="@+id/nav_decent"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/nav_decent" />
-        <item
-            android:id="@+id/nav_garbage"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/nav_garbage" />
+            android:title="Meme" />
+
     </group>
 
 </menu>
