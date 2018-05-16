@@ -9,10 +9,17 @@ import android.view.ViewGroup;
 
 public class Quality_Fragment extends ListFragment{
 
+    private Quality mQuality;
+
+    public Quality_Fragment () {
+        mQuality = new Quality();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
         View rootView = inflater.inflate(R.layout.quality_fragment, container, false);
+
 
         return rootView;
     }
