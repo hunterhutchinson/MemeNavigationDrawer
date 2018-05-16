@@ -82,13 +82,8 @@ public class ActivityMain extends AppCompatActivity
 
         int id = item.getItemId();
         Fragment contentFragment = null;
-        if (id == R.id.nav_quality) {
-            contentFragment = new Quality_Fragment();
-        }
-        else if (id == R.id.nav_decent) {
-            contentFragment = new Decent_Fragment();
-        }
-        else if (id == R.id.nav_garbage) {
+
+         if (id == R.id.nav_meme) {
              contentFragment = new Meme_Fragment();
         }
 
