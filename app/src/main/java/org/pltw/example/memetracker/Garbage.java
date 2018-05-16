@@ -3,8 +3,7 @@ package org.pltw.example.memetracker;
 public class Garbage {
     public int garbageRating;
 
-    public Garbage(int garbageRating) {
-        this.garbageRating = garbageRating;
+    public Garbage() {
     }
 
     public int getGarbage() {
