@@ -3,8 +3,8 @@ package org.pltw.example.memetracker;
 public class Quality {
     public int qualityRating;
 
-    public Quality(int qualityRating) {
-        this.qualityRating = qualityRating;
+    public Quality() {
+
     }
 
     public int getQuality() {
