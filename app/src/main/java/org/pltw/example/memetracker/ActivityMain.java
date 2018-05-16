@@ -84,13 +84,13 @@ public class ActivityMain extends AppCompatActivity
         int id = item.getItemId();
         Fragment contentFragment = null;
         if (id == R.id.nav_quality) {
-
+            contentFragment = new Quality_Fragment();
         }
         else if (id == R.id.nav_decent) {
-
+            contentFragment = new Decent_Fragment();
         }
         else if (id == R.id.nav_garbage) {
-        contentFragment = new Garbage_Fragment();
+             contentFragment = new Garbage_Fragment();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
