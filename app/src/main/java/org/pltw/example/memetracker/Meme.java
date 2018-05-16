@@ -1,17 +1,17 @@
 package org.pltw.example.memetracker;
 
-public class Quality {
+public class Meme {
     public int qualityRating;
 
-    public Quality() {
+    public Meme() {
 
     }
 
-    public int getQuality() {
+    public int getQualityRating() {
         return qualityRating;
     }
 
-    public void setQuality (int qualityRating) {
+    public void setQualityRating(int qualityRating) {
         this.qualityRating = qualityRating;
     }
 }
