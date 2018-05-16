@@ -9,6 +9,12 @@ import android.view.ViewGroup;
 
 public class Garbage_Fragment extends ListFragment {
 
+    private Garbage mGarbage;
+
+    public Garbage_Fragment() {
+        mGarbage = new Garbage();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);

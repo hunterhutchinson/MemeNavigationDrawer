@@ -85,14 +85,12 @@ public class ActivityMain extends AppCompatActivity
        // Fragment contentFragment = null;
         if (id == R.id.nav_quality) {
 
-
         }
         else if (id == R.id.nav_decent) {
 
         }
         else if (id == R.id.nav_garbage) {
-           // Intent intent = new Intent(Garbage_Fragment.class);
-            //contentFragment = new Garbage_Fragment();
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
