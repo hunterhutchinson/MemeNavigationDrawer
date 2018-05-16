@@ -82,7 +82,7 @@ public class ActivityMain extends AppCompatActivity
         // Handle navigation view item clicks here.
 
         int id = item.getItemId();
-       // Fragment contentFragment = null;
+        Fragment contentFragment = null;
         if (id == R.id.nav_quality) {
 
         }
@@ -90,7 +90,7 @@ public class ActivityMain extends AppCompatActivity
 
         }
         else if (id == R.id.nav_garbage) {
-
+        contentFragment = new Garbage_Fragment();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

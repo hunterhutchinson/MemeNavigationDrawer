@@ -17,6 +17,6 @@ public class Decent_Fragment extends ListFragment {
 
         return rootView;
     }
-    
+
 }
 
