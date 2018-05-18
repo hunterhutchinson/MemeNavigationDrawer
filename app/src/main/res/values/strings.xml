@@ -8,11 +8,9 @@
     <string name="action_settings">Settings</string>
 
     <!-- Quality -->
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-    <string name="nav_"></string>
+    <string name="nav_spongebob">Spongebob Memes</string>
+    <string name="nav_photoshop">Photoshop Memes</string>
+    <string name="nav_genji">Josh is a Genji main gifs</string>
 
     <!-- Decent -->
     <string name="nav_"></string>
@@ -20,7 +18,7 @@
     <string name="nav_"></string>
     <string name="nav_"></string>
     <string name="nav_"></string>
-    
+
     <!-- Garbage -->
     <string name="nav_destiny2">Destiny 2</string>
     <string name="nav_fortnite">Fortnite</string>
