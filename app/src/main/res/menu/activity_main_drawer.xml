@@ -8,11 +8,11 @@
             <item
                 android:id="@+id/nav_overwatch"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Overwatch" />
             <item
                 android:id="@+id/nav_pepe"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Pepe" />
         </menu>
     </item>
 
@@ -21,11 +21,11 @@
             <item
                 android:id="@+id/nav_spongebob"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Spongebob" />
             <item
                 android:id="@+id/nav_photoshop"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Photoshop" />
         </menu>
     </item>
 
@@ -34,11 +34,11 @@
             <item
                 android:id="@+id/nav_destiny2"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Destiny 2" />
             <item
                 android:id="@+id/nav_fortnite"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Fortnite" />
         </menu>
     </item>
 
