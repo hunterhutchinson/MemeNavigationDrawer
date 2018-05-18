@@ -6,5 +6,22 @@
     <string name="nav_header_subtitle">WithAWhacker</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="nav_meme">Memes</string>
+
+    <!-- Quality -->
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+
+    <!-- Decent -->
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    <string name="nav_"></string>
+    
+    <!-- Garbage -->
+    <string name="nav_destiny2">Destiny 2</string>
+    <string name="nav_fortnite">Fortnite</string>
 </resources>
