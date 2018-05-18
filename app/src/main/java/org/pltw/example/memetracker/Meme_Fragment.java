@@ -19,7 +19,7 @@ public class Meme_Fragment extends ListFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        View rootView = inflater.inflate(R.layout.garbage_fragment, container, false);
+        View rootView = inflater.inflate(R.layout.meme_fragment, container, false);
 
 
         return rootView;
