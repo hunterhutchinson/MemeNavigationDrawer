@@ -6,26 +6,30 @@
     <item android:title="Quality">
         <menu>
             <item
-                android:id="@+id/nav_overwatch"
+                android:id="@+id/nav_spongebob"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Overwatch" />
+                android:title="@string/title_spongebob" />
             <item
-                android:id="@+id/nav_pepe"
+                android:id="@+id/nav_photoshop"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Pepe" />
+                android:title="@string/title_photoshop" />
+            <item
+                android:id="@+id/nav_genji"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_genji" />
         </menu>
     </item>
 
     <item android:title="Decent">
         <menu>
             <item
-                android:id="@+id/nav_spongebob"
+                android:id="@+id/nav_overwatch"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Spongebob" />
+                android:title="@string/title_overwatch" />
             <item
-                android:id="@+id/nav_photoshop"
+                android:id="@+id/nav_pepe"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Photoshop" />
+                android:title="@string/title_pepe" />
         </menu>
     </item>
 
@@ -34,11 +38,11 @@
             <item
                 android:id="@+id/nav_destiny2"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Destiny 2" />
+                android:title="@string/title_destiny2" />
             <item
                 android:id="@+id/nav_fortnite"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Fortnite" />
+                android:title="@string/title_fortnite" />
         </menu>
     </item>
 

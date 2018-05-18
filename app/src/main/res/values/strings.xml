@@ -11,12 +11,20 @@
     <string name="nav_spongebob">Spongebob Memes</string>
     <string name="nav_photoshop">Photoshop Memes</string>
     <string name="nav_genji">Josh is a Genji main gifs</string>
+    <string name="title_spongebob">Spongebob</string>
+    <string name="title_photoshop">Photoshop</string>
+    <string name="title_genji">Genji</string>
 
     <!-- Decent -->
     <string name="nav_overwatch">Overwatch</string>
     <string name="nav_pepe">Pepe the Frog</string>
-    
+    <string name="title_overwatch">Overwatch</string>
+    <string name="title_pepe">Pepe</string>
+
     <!-- Garbage -->
     <string name="nav_destiny2">Destiny 2</string>
     <string name="nav_fortnite">Fortnite</string>
+    <string name="title_destiny2">Fortnite</string>
+    <string name="title_fortnite">Destiny 2</string>
+
 </resources>
