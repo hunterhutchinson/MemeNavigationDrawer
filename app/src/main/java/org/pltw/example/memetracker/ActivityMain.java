@@ -75,9 +75,28 @@ public class ActivityMain extends AppCompatActivity
         int id = item.getItemId();
         Fragment contentFragment = null;
 
-         if (id == R.id.nav_meme) {
+         if (id == R.id.nav_spongebob) {
              contentFragment = new Meme_Fragment();
-        }
+         }
+         else if (id == R.id.nav_photoshop){
+             contentFragment = new Meme_Fragment();
+         }
+         else if (id == R.id.nav_genji){
+             contentFragment = new Meme_Fragment();
+         }
+         else if (id == R.id.nav_overwatch){
+             contentFragment = new Meme_Fragment();
+         }
+         else if (id == R.id.nav_pepe){
+             contentFragment = new Meme_Fragment();
+         }
+         else if (id == R.id.nav_destiny2){
+             contentFragment = new Meme_Fragment();
+         }
+         else if (id == R.id.nav_fortnite){
+             contentFragment = new Meme_Fragment();
+         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
