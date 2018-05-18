@@ -13,12 +13,9 @@
     <string name="nav_genji">Josh is a Genji main gifs</string>
 
     <!-- Decent -->
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-    <string name="nav_"></string>
-
+    <string name="nav_overwatch">Overwatch</string>
+    <string name="nav_pepe">Pepe the Frog</string>
+    
     <!-- Garbage -->
     <string name="nav_destiny2">Destiny 2</string>
     <string name="nav_fortnite">Fortnite</string>
