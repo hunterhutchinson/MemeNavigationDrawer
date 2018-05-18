@@ -3,40 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <item android:title="Decent">
+    <item android:title="Quality">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_overwatch"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Share" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_pepe"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
         </menu>
     </item>
 
-        <item android:title="Quality">
-            <menu>
-                <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Share" />
-                <item
-                    android:id="@+id/nav_send"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="Send" />
-            </menu>
-        </item>
+    <item android:title="Decent">
+        <menu>
+            <item
+                android:id="@+id/nav_spongebob"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_photoshop"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
 
     <item android:title="Garbage">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_destiny2"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Share" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_fortnite"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
         </menu>
