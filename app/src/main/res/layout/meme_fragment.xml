@@ -3,15 +3,4 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/cookieImageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent"
-        android:srcCompat="@drawable/ic_menu_camera" />
-
 </android.support.constraint.ConstraintLayout>
