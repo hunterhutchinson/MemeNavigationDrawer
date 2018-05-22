@@ -14,4 +14,114 @@
         android:layout_constraintTop_toBottomOf="parent"
         android:srcCompat="@drawable/ic_menu_camera" />
 
+    <ImageView
+        android:id="@+id/spongebob_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/photoshop_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/photoshop_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/josh_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/overwatch_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/overwatch_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/fortnite_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/fortnite_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/destiny_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/destiny_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toBottomOf="parent"
+        android:srcCompat="@drawable/ic_menu_camera" />
+
 </android.support.constraint.ConstraintLayout>
