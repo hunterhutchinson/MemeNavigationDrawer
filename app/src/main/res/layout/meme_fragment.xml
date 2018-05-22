@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<android.support.constraint.LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,10 +11,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <ImageView
         android:id="@+id/spongebob_2"
@@ -22,10 +19,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <!-- Photoshop -->
 
@@ -35,10 +29,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <ImageView
         android:id="@+id/photoshop_2"
@@ -46,10 +37,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <!-- Josh -->
 
@@ -59,10 +47,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <!-- Overwatch -->
 
@@ -72,10 +57,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <ImageView
         android:id="@+id/overwatch_2"
@@ -83,10 +65,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <!-- Fortnite -->
 
@@ -96,10 +75,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <ImageView
         android:id="@+id/fortnite_2"
@@ -107,10 +83,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <!-- Destiny -->
 
@@ -120,10 +93,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
     <ImageView
         android:id="@+id/destiny_2"
@@ -131,9 +101,6 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toBottomOf="parent" />
+        android:scaleType="fitCenter" />
 
-</android.support.constraint.ConstraintLayout>
+</android.support.constraint.LinearLayout>
