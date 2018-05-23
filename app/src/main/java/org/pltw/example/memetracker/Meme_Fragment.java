@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
 public class Meme_Fragment extends ListFragment {
@@ -33,20 +34,19 @@ public class Meme_Fragment extends ListFragment {
     private ImageView mPepeImage2;
 
     private void updateImages(){
-        mSpongeBobImage1.setVisibility(VISIBLE);
-        mSpongeBobImage2.setVisibility(VISIBLE);
-        mPhotoshopImage1.setVisibility(VISIBLE);
-        mPhotoshopImage2.setVisibility(VISIBLE);
-        mJoshImage1.setVisibility(VISIBLE);
-        mOverwatchImage1.setVisibility(VISIBLE);
-        mOverwatchImage2.setVisibility(VISIBLE);
-        mFortniteImage1.setVisibility(VISIBLE);
-        mFortniteImage2.setVisibility(VISIBLE);
-        mDestinyImage1.setVisibility(VISIBLE);
-        mDestinyImage2.setVisibility(VISIBLE);
-        mPepeImage1.setVisibility(VISIBLE);
-        mPepeImage2.setVisibility(VISIBLE);
-
+        mSpongeBobImage1.setVisibility(GONE);
+        mSpongeBobImage2.setVisibility(GONE);
+        mPhotoshopImage1.setVisibility(GONE);
+        mPhotoshopImage2.setVisibility(GONE);
+        mJoshImage1.setVisibility(GONE);
+        mOverwatchImage1.setVisibility(GONE);
+        mOverwatchImage2.setVisibility(GONE);
+        mFortniteImage1.setVisibility(GONE);
+        mFortniteImage2.setVisibility(GONE);
+        mDestinyImage1.setVisibility(GONE);
+        mDestinyImage2.setVisibility(GONE);
+        mPepeImage1.setVisibility(GONE);
+        mPepeImage2.setVisibility(GONE);
     }
 
     private MenuItem mNavSponge;
