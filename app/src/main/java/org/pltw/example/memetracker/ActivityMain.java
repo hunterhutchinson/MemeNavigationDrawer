@@ -1,5 +1,6 @@
 package org.pltw.example.memetracker;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -76,6 +77,8 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
         Fragment contentFragment = null;
 
          if (id == R.id.nav_spongebob) {
+            // Intent intent = new Intent(ActivityMain.this , Meme.class);
+          //   startActivity(intent);
              contentFragment = new Meme_Fragment();
          }
          else if (id == R.id.nav_photoshop){
