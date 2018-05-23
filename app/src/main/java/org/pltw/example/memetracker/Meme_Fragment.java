@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import static android.view.View.VISIBLE;
+
 public class Meme_Fragment extends ListFragment {
 
     private Meme mMeme;
@@ -30,7 +32,20 @@ public class Meme_Fragment extends ListFragment {
     private ImageView mPepeImage1;
     private ImageView mPepeImage2;
 
-    private void warnUser(){
+    private void updateImages(){
+        mSpongeBobImage1.setVisibility(VISIBLE);
+        mSpongeBobImage2.setVisibility(VISIBLE);
+        mPhotoshopImage1.setVisibility(VISIBLE);
+        mPhotoshopImage2.setVisibility(VISIBLE);
+        mJoshImage1.setVisibility(VISIBLE);
+        mOverwatchImage1.setVisibility(VISIBLE);
+        mOverwatchImage2.setVisibility(VISIBLE);
+        mFortniteImage1.setVisibility(VISIBLE);
+        mFortniteImage2.setVisibility(VISIBLE);
+        mDestinyImage1.setVisibility(VISIBLE);
+        mDestinyImage2.setVisibility(VISIBLE);
+        mPepeImage1.setVisibility(VISIBLE);
+        mPepeImage2.setVisibility(VISIBLE);
 
     }
 
