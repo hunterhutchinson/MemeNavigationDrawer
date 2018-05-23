@@ -1,10 +1,13 @@
 package org.pltw.example.memetracker;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.ClipData;
 import android.content.Context;
 import android.support.v4.app.ListFragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -24,6 +27,15 @@ public class Meme_Fragment extends ListFragment {
     private ImageView mFortniteImage2;
     private ImageView mDestinyImage1;
     private ImageView mDestinyImage2;
+
+    private void warnUser(){
+
+    }
+
+    private MenuItem mNavSponge;
+    private MenuItem mNavGenji;
+
+
 
     public Meme_Fragment() {
         mMeme = new Meme();
@@ -51,6 +63,13 @@ public class Meme_Fragment extends ListFragment {
         mDestinyImage1 = (ImageView) rootView.findViewById(R.id.destiny_1);
         mDestinyImage2 = (ImageView) rootView.findViewById(R.id.destiny_2);
 
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
 
 
 
