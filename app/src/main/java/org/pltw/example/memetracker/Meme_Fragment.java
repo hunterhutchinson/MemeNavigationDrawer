@@ -27,13 +27,20 @@ public class Meme_Fragment extends ListFragment {
     private ImageView mFortniteImage2;
     private ImageView mDestinyImage1;
     private ImageView mDestinyImage2;
+    private ImageView mPepeImage1;
+    private ImageView mPepeImage2;
 
     private void warnUser(){
 
     }
 
     private MenuItem mNavSponge;
-    private MenuItem mNavGenji;
+    private MenuItem mNavJosh;
+    private MenuItem mNavOverwatch;
+    private MenuItem mNavPhotoshop;
+    private MenuItem mNavDestiny;
+    private MenuItem mNavFortnite;
+    private MenuItem mNavPepe;
 
 
 
@@ -48,6 +55,9 @@ public class Meme_Fragment extends ListFragment {
 
         mSpongeBobImage1 = (ImageView) rootView.findViewById(R.id.spongebob_1);
         mSpongeBobImage2 = (ImageView) rootView.findViewById(R.id.spongebob_2);
+
+        mPepeImage1 = (ImageView) rootView.findViewById(R.id.pepe_1);
+        mPepeImage2 = (ImageView) rootView.findViewById(R.id.pepe_2);
 
         mPhotoshopImage1 = (ImageView) rootView.findViewById(R.id.photoshop_1);
         mPhotoshopImage2 = (ImageView) rootView.findViewById(R.id.photoshop_2);
@@ -64,12 +74,12 @@ public class Meme_Fragment extends ListFragment {
         mDestinyImage2 = (ImageView) rootView.findViewById(R.id.destiny_2);
 
         mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
+        mNavJosh = (MenuItem) rootView.findViewById(R.id.nav_josh);
+        mNavOverwatch= (MenuItem) rootView.findViewById(R.id.nav_overwatch);
+        mNavDestiny = (MenuItem) rootView.findViewById(R.id.nav_destiny2);
+        mNavFortnite = (MenuItem) rootView.findViewById(R.id.nav_fortnite);
+        mNavPepe = (MenuItem) rootView.findViewById(R.id.nav_pepe);
+        mNavPhotoshop = (MenuItem) rootView.findViewById(R.id.nav_photoshop);
 
 
 

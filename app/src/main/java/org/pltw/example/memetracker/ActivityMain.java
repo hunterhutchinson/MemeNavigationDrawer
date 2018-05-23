@@ -86,7 +86,7 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
          else if (id == R.id.nav_photoshop){
              contentFragment = new Meme_Fragment();
          }
-         else if (id == R.id.nav_genji){
+         else if (id == R.id.nav_josh){
              contentFragment = new Meme_Fragment();
          }
          else if (id == R.id.nav_overwatch){
