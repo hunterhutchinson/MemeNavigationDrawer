@@ -66,6 +66,24 @@
         android:layout_marginTop="56dp"
         android:scaleType="fitCenter" />
 
+    <!-- Overwatch -->
+
+    <ImageView
+        android:id="@+id/pepe_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/pepe_2"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter" />
+
     <!-- Fortnite -->
 
     <ImageView
