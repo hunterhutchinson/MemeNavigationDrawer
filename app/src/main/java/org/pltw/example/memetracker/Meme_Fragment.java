@@ -35,8 +35,6 @@ public class Meme_Fragment extends ListFragment {
 
 
 
-
- 
     private void updateImages(){
         mSpongeBobImage1.setVisibility(GONE);
         mSpongeBobImage2.setVisibility(GONE);

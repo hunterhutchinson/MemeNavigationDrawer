@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/spongebob_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="56dp"
+            android:scaleType="fitCenter" />
 
-    <!-- Spongebob -->
+        <ImageView
+            android:id="@+id/spongebob_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="56dp"
+            android:scaleType="fitCenter" />
 
-    <ImageView
-        android:id="@+id/spongebob_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
-
-    <ImageView
-        android:id="@+id/spongebob_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
-
-    <!-- Photoshop -->
+        <!-- Photoshop -->
 
     <ImageView
         android:id="@+id/photoshop_1"
@@ -119,5 +115,4 @@
         android:visibility="gone"
         android:layout_marginTop="56dp"
         android:scaleType="fitCenter" />
-
-</LinearLayout>
+</FrameLayout>
