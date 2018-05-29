@@ -79,8 +79,8 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
         Fragment contentFragment = null;
 
          if (id == R.id.nav_spongebob) {
-             Intent intent = new Intent(ActivityMain.this , Meme.class);
-             startActivity(intent);
+            // Intent intent = new Intent(MemeActivity.this , Meme.class);
+            // startActivity(intent);
              contentFragment = new Meme_Fragment();
          }
          else if (id == R.id.nav_photoshop){
