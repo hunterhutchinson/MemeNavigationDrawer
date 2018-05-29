@@ -32,13 +32,12 @@ public class Meme_Fragment extends ListFragment {
     private ImageView mDestinyImage2;
     private ImageView mPepeImage1;
     private ImageView mPepeImage2;
-<<<<<<< HEAD
 
-    private void updateImages() {
-=======
+
+
+
  
     private void updateImages(){
->>>>>>> 009468abf144cecf615bf4b37d1ee6b6a0153c58
         mSpongeBobImage1.setVisibility(GONE);
         mSpongeBobImage2.setVisibility(GONE);
         mPhotoshopImage1.setVisibility(GONE);
