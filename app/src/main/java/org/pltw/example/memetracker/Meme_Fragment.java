@@ -33,7 +33,7 @@ public class Meme_Fragment extends ListFragment {
     private ImageView mPepeImage1;
     private ImageView mPepeImage2;
 
-    
+
     private void updateImages(){
         mSpongeBobImage1.setVisibility(GONE);
         mSpongeBobImage2.setVisibility(GONE);
@@ -94,6 +94,8 @@ public class Meme_Fragment extends ListFragment {
         mNavFortnite = (MenuItem) rootView.findViewById(R.id.nav_fortnite);
         mNavPepe = (MenuItem) rootView.findViewById(R.id.nav_pepe);
         mNavPhotoshop = (MenuItem) rootView.findViewById(R.id.nav_photoshop);
+
+
 
         return rootView;
     }
