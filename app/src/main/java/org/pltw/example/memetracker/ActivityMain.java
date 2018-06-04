@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
@@ -73,7 +74,6 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
 
-
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
 
@@ -104,14 +104,14 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
              contentFragment = new Meme_Fragment();
          }
         if (contentFragment != null) {
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.content_frame, contentFragment);
-            ft.commit();
+             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+           ft.replace(R.id.content_frame, contentFragment);
+           ft.commit();
         }
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }
+

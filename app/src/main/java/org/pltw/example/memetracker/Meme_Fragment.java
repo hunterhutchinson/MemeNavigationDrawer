@@ -1,9 +1,10 @@
 package org.pltw.example.memetracker;
 
 import android.app.AlertDialog;
-import android.app.Fragment;
+
 import android.content.ClipData;
 import android.content.Context;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
-public class Meme_Fragment extends ListFragment {
+public class Meme_Fragment extends Fragment {
 
     private Meme mMeme;
     private ImageView mSpongeBobImage1;
