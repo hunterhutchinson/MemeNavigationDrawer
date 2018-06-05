@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 
 import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
 
 //https://developer.android.com/training/basics/fragments/fragment-ui
 
@@ -123,26 +124,8 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
             // Intent intent = new Intent(MemeActivity.this , Meme.class);
             // startActivity(intent);
              contentFragment = new Meme_Fragment();
-             mSpongeBobImage1.setVisibility(View.VISIBLE);
-             mSpongeBobImage2.setVisibility(View.VISIBLE);
-         }
-         else if (id == R.id.nav_photoshop){
-             contentFragment = new Meme_Fragment();
-         }
-         else if (id == R.id.nav_josh){
-             contentFragment = new Meme_Fragment();
-         }
-         else if (id == R.id.nav_overwatch){
-             contentFragment = new Meme_Fragment();
-         }
-         else if (id == R.id.nav_pepe){
-             contentFragment = new Meme_Fragment();
-         }
-         else if (id == R.id.nav_destiny2){
-             contentFragment = new Meme_Fragment();
-         }
-         else if (id == R.id.nav_fortnite){
-             contentFragment = new Meme_Fragment();
+            // mSpongeBobImage1.setVisibility(VISIBLE);
+            // mSpongeBobImage2.setVisibility(VISIBLE);
          }
         if (contentFragment != null) {
              FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

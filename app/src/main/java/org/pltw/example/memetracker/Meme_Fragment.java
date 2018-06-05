@@ -87,12 +87,7 @@ public class Meme_Fragment extends Fragment {
         mDestinyImage2 = (ImageView) rootView.findViewById(R.id.destiny_2);
 
         mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
-        mNavJosh = (MenuItem) rootView.findViewById(R.id.nav_josh);
-        mNavOverwatch= (MenuItem) rootView.findViewById(R.id.nav_overwatch);
-        mNavDestiny = (MenuItem) rootView.findViewById(R.id.nav_destiny2);
-        mNavFortnite = (MenuItem) rootView.findViewById(R.id.nav_fortnite);
-        mNavPepe = (MenuItem) rootView.findViewById(R.id.nav_pepe);
-        mNavPhotoshop = (MenuItem) rootView.findViewById(R.id.nav_photoshop);
+
 
        // mNavSponge.setOnMenuItemClickListener(new View.())
 

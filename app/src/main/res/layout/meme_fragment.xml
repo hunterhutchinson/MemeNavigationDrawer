@@ -10,10 +10,10 @@
             android:id="@+id/spongebob_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_marginTop="56dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/pepe"/>
+            android:src="@drawable/spongebob2"/>
 
         <ImageView
             android:id="@+id/spongebob_2"
@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:visibility="gone"
             android:layout_marginTop="56dp"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"
+            android:src="@drawable/spongebob"/>
 
         <!-- Photoshop -->
 
@@ -31,7 +32,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/ps1"/>
 
     <ImageView
         android:id="@+id/photoshop_2"
@@ -39,7 +41,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/ps2"/>
 
     <!-- Josh -->
 
@@ -49,7 +52,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/ow1"/>
 
     <!-- Overwatch -->
 
@@ -59,7 +63,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/ow1"/>
 
     <ImageView
         android:id="@+id/overwatch_2"
@@ -67,7 +72,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/ow2"/>
 
     <!-- Pepe -->
 
@@ -77,7 +83,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/pepe"/>
 
     <ImageView
         android:id="@+id/pepe_2"
@@ -85,7 +92,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/pepe2"/>
 
     <!-- Fortnite -->
 
@@ -95,7 +103,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/fn1"/>
 
     <ImageView
         android:id="@+id/fortnite_2"
@@ -103,7 +112,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/fn2"/>
 
     <!-- Destiny -->
 
@@ -113,7 +123,8 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/d1"/>
 
     <ImageView
         android:id="@+id/destiny_2"
@@ -121,5 +132,49 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginTop="56dp"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/d2"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Spongebob Memes" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="PhotoShop Memes" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Josh Meme" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Overwtach Memes" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pepe Memes" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Fortnite Memes" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Destiny Memes" />
 </LinearLayout>
