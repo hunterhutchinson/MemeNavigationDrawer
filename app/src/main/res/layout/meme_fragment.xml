@@ -3,46 +3,47 @@
 
    <Button
        android:id="@+id/button1"
-       android:layout_width="wrap_content"
+       android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:text="Spongebob Memes" />
    <Button
        android:id="@+id/button2"
-       android:layout_width="wrap_content"
+       android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:text="PhotoShop Memes" />
    <Button
        android:id="@+id/button3"
-       android:layout_width="wrap_content"
+       android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:text="Josh Meme" />
    <Button
        android:id="@+id/button4"
-       android:layout_width="wrap_content"
+       android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:text="Overwtach Memes" />
    <Button
        android:id="@+id/button5"
-       android:layout_width="wrap_content"
+       android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:text="Pepe Memes" />
    <Button
        android:id="@+id/button6"
-       android:layout_width="wrap_content"
+       android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:text="Fortnite Memes" />
-   <Button
-       android:id="@+id/button7"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_weight="1"
-       android:text="Destiny Memes" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Destiny Memes" />
 
         <ImageView
             android:id="@+id/spongebob_1"

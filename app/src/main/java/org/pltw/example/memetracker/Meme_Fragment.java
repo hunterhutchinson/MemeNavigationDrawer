@@ -42,21 +42,7 @@ public class Meme_Fragment extends Fragment {
     private Button mButton7;
 
 
-    private void updateImages(){
-    //    mSpongeBobImage1.setVisibility(view.GONE);
-      //  mSpongeBobImage2.setVisibility(GONE);
-      //  mPhotoshopImage1.setVisibility(GONE);
-     //   mPhotoshopImage2.setVisibility(GONE);
-      //  mJoshImage1.setVisibility(GONE);
-      //  mOverwatchImage1.setVisibility(GONE);
-      //  mOverwatchImage2.setVisibility(GONE);
-      //  mFortniteImage1.setVisibility(GONE);
-      //  mFortniteImage2.setVisibility(GONE);
-      //  mDestinyImage1.setVisibility(GONE);
-      //  mDestinyImage2.setVisibility(GONE);
-      //  mPepeImage1.setVisibility(GONE);
-      //  mPepeImage2.setVisibility(GONE);
-    }
+
 
     private MenuItem mNavSponge;
     private MenuItem mNavJosh;
@@ -109,7 +95,132 @@ public class Meme_Fragment extends Fragment {
 
        // mNavSponge.setOnMenuItemClickListener(new View.())
 
-
+        mButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.GONE);
+                mPhotoshopImage2.setVisibility(view.GONE);
+                mJoshImage1.setVisibility(view.GONE);
+                mOverwatchImage1.setVisibility(view.GONE);
+                mOverwatchImage2.setVisibility(view.GONE);
+                mFortniteImage1.setVisibility(view.GONE);
+                mFortniteImage2.setVisibility(view.GONE);
+                mDestinyImage1.setVisibility(view.GONE);
+                mDestinyImage2.setVisibility(view.GONE);
+                mPepeImage1.setVisibility(view.GONE);
+                mPepeImage2.setVisibility(view.GONE);
+                mSpongeBobImage1.setVisibility(view.VISIBLE);
+                mSpongeBobImage2.setVisibility(view.VISIBLE);
+            }
+        });
+        mButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.VISIBLE);
+                mPhotoshopImage2.setVisibility(view.VISIBLE);
+                mJoshImage1.setVisibility(view.GONE);
+                mOverwatchImage1.setVisibility(view.GONE);
+                mOverwatchImage2.setVisibility(view.GONE);
+                mFortniteImage1.setVisibility(view.GONE);
+                mFortniteImage2.setVisibility(view.GONE);
+                mDestinyImage1.setVisibility(view.GONE);
+                mDestinyImage2.setVisibility(view.GONE);
+                mPepeImage1.setVisibility(view.GONE);
+                mPepeImage2.setVisibility(view.GONE);
+                mSpongeBobImage1.setVisibility(view.GONE);
+                mSpongeBobImage2.setVisibility(view.GONE);
+            }
+        });
+        mButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.GONE);
+                mPhotoshopImage2.setVisibility(view.GONE);
+                mJoshImage1.setVisibility(view.VISIBLE);
+                mOverwatchImage1.setVisibility(view.GONE);
+                mOverwatchImage2.setVisibility(view.GONE);
+                mFortniteImage1.setVisibility(view.GONE);
+                mFortniteImage2.setVisibility(view.GONE);
+                mDestinyImage1.setVisibility(view.GONE);
+                mDestinyImage2.setVisibility(view.GONE);
+                mPepeImage1.setVisibility(view.GONE);
+                mPepeImage2.setVisibility(view.GONE);
+                mSpongeBobImage1.setVisibility(view.GONE);
+                mSpongeBobImage2.setVisibility(view.GONE);
+            }
+        });
+        mButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.GONE);
+                mPhotoshopImage2.setVisibility(view.GONE);
+                mJoshImage1.setVisibility(view.GONE);
+                mOverwatchImage1.setVisibility(view.VISIBLE);
+                mOverwatchImage2.setVisibility(view.VISIBLE);
+                mFortniteImage1.setVisibility(view.GONE);
+                mFortniteImage2.setVisibility(view.GONE);
+                mDestinyImage1.setVisibility(view.GONE);
+                mDestinyImage2.setVisibility(view.GONE);
+                mPepeImage1.setVisibility(view.GONE);
+                mPepeImage2.setVisibility(view.GONE);
+                mSpongeBobImage1.setVisibility(view.GONE);
+                mSpongeBobImage2.setVisibility(view.GONE);
+            }
+        });
+        mButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.GONE);
+                mPhotoshopImage2.setVisibility(view.GONE);
+                mJoshImage1.setVisibility(view.GONE);
+                mOverwatchImage1.setVisibility(view.GONE);
+                mOverwatchImage2.setVisibility(view.GONE);
+                mFortniteImage1.setVisibility(view.GONE);
+                mFortniteImage2.setVisibility(view.GONE);
+                mDestinyImage1.setVisibility(view.GONE);
+                mDestinyImage2.setVisibility(view.GONE);
+                mPepeImage1.setVisibility(view.VISIBLE);
+                mPepeImage2.setVisibility(view.VISIBLE);
+                mSpongeBobImage1.setVisibility(view.GONE);
+                mSpongeBobImage2.setVisibility(view.GONE);
+            }
+        });
+        mButton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.GONE);
+                mPhotoshopImage2.setVisibility(view.GONE);
+                mJoshImage1.setVisibility(view.GONE);
+                mOverwatchImage1.setVisibility(view.GONE);
+                mOverwatchImage2.setVisibility(view.GONE);
+                mFortniteImage1.setVisibility(view.VISIBLE);
+                mFortniteImage2.setVisibility(view.VISIBLE);
+                mDestinyImage1.setVisibility(view.GONE);
+                mDestinyImage2.setVisibility(view.GONE);
+                mPepeImage1.setVisibility(view.GONE);
+                mPepeImage2.setVisibility(view.GONE);
+                mSpongeBobImage1.setVisibility(view.GONE);
+                mSpongeBobImage2.setVisibility(view.GONE);
+            }
+        });
+        mButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPhotoshopImage1.setVisibility(view.GONE);
+                mPhotoshopImage2.setVisibility(view.GONE);
+                mJoshImage1.setVisibility(view.GONE);
+                mOverwatchImage1.setVisibility(view.GONE);
+                mOverwatchImage2.setVisibility(view.GONE);
+                mFortniteImage1.setVisibility(view.GONE);
+                mFortniteImage2.setVisibility(view.GONE);
+                mDestinyImage1.setVisibility(view.VISIBLE);
+                mDestinyImage2.setVisibility(view.VISIBLE);
+                mPepeImage1.setVisibility(view.GONE);
+                mPepeImage2.setVisibility(view.GONE);
+                mSpongeBobImage1.setVisibility(view.GONE);
+                mSpongeBobImage2.setVisibility(view.GONE);
+            }
+        });
 
 
 
