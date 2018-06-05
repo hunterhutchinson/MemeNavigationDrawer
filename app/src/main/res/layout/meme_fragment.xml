@@ -10,9 +10,10 @@
             android:id="@+id/spongebob_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"
+            android:visibility="visible"
             android:layout_marginTop="56dp"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"
+            android:src="@drawable/pepe"/>
 
         <ImageView
             android:id="@+id/spongebob_2"

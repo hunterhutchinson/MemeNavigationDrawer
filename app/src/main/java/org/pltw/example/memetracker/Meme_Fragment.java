@@ -14,8 +14,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import static android.view.View.GONE;
-import static android.view.View.VISIBLE;
 
 public class Meme_Fragment extends Fragment {
 
@@ -36,19 +34,19 @@ public class Meme_Fragment extends Fragment {
 
 
     private void updateImages(){
-        mSpongeBobImage1.setVisibility(GONE);
-        mSpongeBobImage2.setVisibility(GONE);
-        mPhotoshopImage1.setVisibility(GONE);
-        mPhotoshopImage2.setVisibility(GONE);
-        mJoshImage1.setVisibility(GONE);
-        mOverwatchImage1.setVisibility(GONE);
-        mOverwatchImage2.setVisibility(GONE);
-        mFortniteImage1.setVisibility(GONE);
-        mFortniteImage2.setVisibility(GONE);
-        mDestinyImage1.setVisibility(GONE);
-        mDestinyImage2.setVisibility(GONE);
-        mPepeImage1.setVisibility(GONE);
-        mPepeImage2.setVisibility(GONE);
+    //    mSpongeBobImage1.setVisibility(view.GONE);
+      //  mSpongeBobImage2.setVisibility(GONE);
+      //  mPhotoshopImage1.setVisibility(GONE);
+     //   mPhotoshopImage2.setVisibility(GONE);
+      //  mJoshImage1.setVisibility(GONE);
+      //  mOverwatchImage1.setVisibility(GONE);
+      //  mOverwatchImage2.setVisibility(GONE);
+      //  mFortniteImage1.setVisibility(GONE);
+      //  mFortniteImage2.setVisibility(GONE);
+      //  mDestinyImage1.setVisibility(GONE);
+      //  mDestinyImage2.setVisibility(GONE);
+      //  mPepeImage1.setVisibility(GONE);
+      //  mPepeImage2.setVisibility(GONE);
     }
 
     private MenuItem mNavSponge;
@@ -95,6 +93,10 @@ public class Meme_Fragment extends Fragment {
         mNavFortnite = (MenuItem) rootView.findViewById(R.id.nav_fortnite);
         mNavPepe = (MenuItem) rootView.findViewById(R.id.nav_pepe);
         mNavPhotoshop = (MenuItem) rootView.findViewById(R.id.nav_photoshop);
+
+       // mNavSponge.setOnMenuItemClickListener(new View.())
+
+
 
 
 

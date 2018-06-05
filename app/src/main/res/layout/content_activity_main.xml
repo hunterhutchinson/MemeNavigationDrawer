@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="org.pltw.example.memetracker.ActivityMain"
-    tools:showIn="@layout/app_bar_activity_main">
+    tools:showIn="@layout/app_bar_applicant">
 
     <TextView
         android:layout_width="wrap_content"

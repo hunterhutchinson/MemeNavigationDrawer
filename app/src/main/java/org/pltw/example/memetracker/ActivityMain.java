@@ -17,12 +17,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+
+import static android.view.View.GONE;
 
 //https://developer.android.com/training/basics/fragments/fragment-ui
 
 public class ActivityMain extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-
+    private ImageView mSpongeBobImage1;
+    private ImageView mSpongeBobImage2;
+    private ImageView mPhotoshopImage1;
+    private ImageView mPhotoshopImage2;
+    private ImageView mJoshImage1;
+    private ImageView mOverwatchImage1;
+    private ImageView mOverwatchImage2;
+    private ImageView mFortniteImage1;
+    private ImageView mFortniteImage2;
+    private ImageView mDestinyImage1;
+    private ImageView mDestinyImage2;
+    private ImageView mPepeImage1;
+    private ImageView mPepeImage2;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -75,7 +91,30 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
     @Override
 
     public boolean onNavigationItemSelected(MenuItem item) {
+
+
         // Handle navigation view item clicks here.
+
+        mSpongeBobImage1 = (ImageView) findViewById(R.id.spongebob_1);
+        mSpongeBobImage2 = (ImageView) findViewById(R.id.spongebob_2);
+
+        mPepeImage1 = (ImageView) findViewById(R.id.pepe_1);
+        mPepeImage2 = (ImageView) findViewById(R.id.pepe_2);
+
+        mPhotoshopImage1 = (ImageView) findViewById(R.id.photoshop_1);
+        mPhotoshopImage2 = (ImageView) findViewById(R.id.photoshop_2);
+
+        mJoshImage1 = (ImageView) findViewById(R.id.josh_1);
+
+        mOverwatchImage1 = (ImageView) findViewById(R.id.overwatch_1);
+        mOverwatchImage2 = (ImageView) findViewById(R.id.overwatch_2);
+
+        mFortniteImage1 = (ImageView) findViewById(R.id.fortnite_1);
+        mFortniteImage2 = (ImageView) findViewById(R.id.fortnite_2);
+
+        mDestinyImage1 = (ImageView) findViewById(R.id.destiny_1);
+        mDestinyImage2 = (ImageView) findViewById(R.id.destiny_2);
+
 
         int id = item.getItemId();
         Fragment contentFragment = null;
@@ -84,6 +123,8 @@ public class ActivityMain extends AppCompatActivity implements NavigationView.On
             // Intent intent = new Intent(MemeActivity.this , Meme.class);
             // startActivity(intent);
              contentFragment = new Meme_Fragment();
+             mSpongeBobImage1.setVisibility(View.VISIBLE);
+             mSpongeBobImage2.setVisibility(View.VISIBLE);
          }
          else if (id == R.id.nav_photoshop){
              contentFragment = new Meme_Fragment();
