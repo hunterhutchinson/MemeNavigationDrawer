@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -31,6 +32,14 @@ public class Meme_Fragment extends Fragment {
     private ImageView mDestinyImage2;
     private ImageView mPepeImage1;
     private ImageView mPepeImage2;
+
+    private Button mButton2;
+    private Button mButton1;
+    private Button mButton3;
+    private Button mButton4;
+    private Button mButton5;
+    private Button mButton6;
+    private Button mButton7;
 
 
     private void updateImages(){
@@ -56,6 +65,8 @@ public class Meme_Fragment extends Fragment {
     private MenuItem mNavDestiny;
     private MenuItem mNavFortnite;
     private MenuItem mNavPepe;
+
+
 
     public Meme_Fragment() {
         mMeme = new Meme();
@@ -88,6 +99,13 @@ public class Meme_Fragment extends Fragment {
 
         mNavSponge = (MenuItem) rootView.findViewById(R.id.nav_spongebob);
 
+        mButton1= rootView.findViewById(R.id.button1);
+        mButton2= rootView.findViewById(R.id.button2);
+        mButton3= rootView.findViewById(R.id.button3);
+        mButton4= rootView.findViewById(R.id.button4);
+        mButton5= rootView.findViewById(R.id.button5);
+        mButton6= rootView.findViewById(R.id.button6);
+        mButton7= rootView.findViewById(R.id.button7);
 
        // mNavSponge.setOnMenuItemClickListener(new View.())
 
